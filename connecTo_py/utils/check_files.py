@@ -25,6 +25,7 @@ def make_read_me(info):
 각 챕터별 코드 실습이나 연습 문제 위주로 올립니다.
 
 ## Chapter_01
+{info}
 ## Chapter_02
 ## Chapter_03
 ## Chapter_04
@@ -36,8 +37,6 @@ def make_read_me(info):
 ## Chapter_10
 ## Chapter_11
 ## Chapter_12
-
-{info}
 """
 
 
