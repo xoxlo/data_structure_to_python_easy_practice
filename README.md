@@ -6,8 +6,9 @@
 각 챕터별 코드 실습이나 연습 문제 위주로 올립니다.
 
 ## Chapter_01
-## Chapter_01 Practice
-Total Practice Count: 0개
+### Chapter_01 Practice
+Total Practice Count: 1개
+- [Chapter_1](https://github.com/xoxlo/data_structure_to_python_easy_practice/tree/main/Chapter_1/Chapter_1)
 
 ## Chapter_02
 ## Chapter_03
