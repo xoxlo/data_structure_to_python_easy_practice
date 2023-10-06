@@ -39,8 +39,8 @@ def make_read_me(info):
 
 def update_readme():
     file_list = get_file_list()
-    file_list = get_file_list2()
-    info = make_info(file_list) + make_info(file_list)
+    file_list2 = get_file_list2()
+    info = make_info(file_list) + make_info(file_list2)
     readme = make_read_me(info)
     return readme
 
