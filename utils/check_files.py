@@ -3,12 +3,11 @@ import os
 def get_file_list():
     file_list = [file for file in os.listdir("./Chapter_1/") if "1" in file]
     file_list = sorted(file_list)
-    total_file_cnt = len(file_list)
     return file_list, total_file_cnt
   
   
 def make_info(file_list, total_file_cnt):
-    info = f"## Chapter_01\nTotal Practice Count: {total_file_cnt}개\n"
+    info = f"## Chapter_01\n\n"
     for file in file_list:
         temp = f"- [{file}](https://github.com/xoxlo/data_structure_to_python_easy_practice/tree/main/Chapter_1/{file})\n"
         info += temp
