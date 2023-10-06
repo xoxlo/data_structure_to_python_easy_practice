@@ -24,3 +24,4 @@ def algorithm2(n):
     return k
 # O(n)
 # while문 안에서 최대로 n번 시간이 걸린다.
+# ..
