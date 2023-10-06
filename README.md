@@ -16,5 +16,5 @@
 - [2.5.py](https://github.com/xoxlo/data_structure_to_python_easy_practice/tree/main/Chapter_3/2.5.py)
 ## Chapter_03
 
-- [ training_3.1.py](https://github.com/xoxlo/data_structure_to_python_easy_practice/tree/main/Chapter_3/ training_3.1.py)
+- [training_3.1.py](https://github.com/xoxlo/data_structure_to_python_easy_practice/tree/main/Chapter_3/training_3.1.py)
 
