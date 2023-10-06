@@ -10,15 +10,5 @@
 - [1.10.py](https://github.com/xoxlo/data_structure_to_python_easy_practice/tree/main/Chapter_1/1.10.py)
 - [1.11.py](https://github.com/xoxlo/data_structure_to_python_easy_practice/tree/main/Chapter_1/1.11.py)
 - [1.8.py](https://github.com/xoxlo/data_structure_to_python_easy_practice/tree/main/Chapter_1/1.8.py)
+- [1.test.py](https://github.com/xoxlo/data_structure_to_python_easy_practice/tree/main/Chapter_1/1.test.py)
 
-## Chapter_02
-## Chapter_03
-## Chapter_04
-## Chapter_05
-## Chapter_06
-## Chapter_07
-## Chapter_08
-## Chapter_09
-## Chapter_10
-## Chapter_11
-## Chapter_12
