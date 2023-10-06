@@ -9,4 +9,5 @@ def test():
     print("7차 TEST 입니다.")
     print("8차 TEST 입니다.") 
     print("9차 TEST 입니다.")
-    print("10차 TEST 입니다.")  
+    print("10차 TEST 입니다.")
+    print("11차 TEST 입니다.")  
