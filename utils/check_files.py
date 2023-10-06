@@ -3,10 +3,9 @@ import os
 def get_file_list():
     file_list = [file for file in os.listdir("./Chapter_1/") if "1" in file]
     file_list = sorted(file_list)
-    return file_list, total_file_cnt
+    return file_list
   
-  
-def make_info(file_list, total_file_cnt):
+def make_info(file_list):
     info = f"## Chapter_01\n\n"
     for file in file_list:
         temp = f"- [{file}](https://github.com/xoxlo/data_structure_to_python_easy_practice/tree/main/Chapter_1/{file})\n"
@@ -38,8 +37,8 @@ def make_read_me(info):
 
 
 def update_readme():
-    file_list, total_file_cnt = get_file_list()
-    info = make_info(file_list, total_file_cnt)
+    file_list = get_file_list()
+    info = make_info(file_list)
     readme = make_read_me(info)
     return readme
 
