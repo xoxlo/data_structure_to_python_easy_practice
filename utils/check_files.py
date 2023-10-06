@@ -13,13 +13,13 @@ def make_info(file_list):
     return info
 
 def get_file_list2():
-    file_list2 = [file for file in os.listdir("./Chapter_2/") if "2" in file]
-    file_list2 = sorted(file_list2)
-    return file_list2
+    file_list = [file for file in os.listdir("./Chapter_2/") if "2" in file]
+    file_list = sorted(file_list)
+    return file_list
   
-def make_info(file_list2):
+def make_info2(file_list):
     info = f"## Chapter_02\n\n"
-    for file in file_list2:
+    for file in file_list:
         temp = f"- [{file}](https://github.com/xoxlo/data_structure_to_python_easy_practice/tree/main/Chapter_2/{file})\n"
         info += temp
     return info
@@ -39,7 +39,8 @@ def make_read_me(info):
 
 def update_readme():
     file_list = get_file_list()
-    info = make_info(file_list)
+    file_list = get_file_list2()
+    info = make_info(file_list) + make_info(file_list)
     readme = make_read_me(info)
     return readme
 
