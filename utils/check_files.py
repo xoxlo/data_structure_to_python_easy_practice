@@ -1,13 +1,13 @@
 import os
 
 def get_file_list():
-    for i in range(1,13):
+    for i in range(1,4):
         file_list = [file for file in os.listdir(f"./Chapter_{i}/") if f"{i}" in file]
         file_list = sorted(file_list)
         return file_list
   
 def make_info(file_list):
-    for i in range(1,13):
+    for i in range(1,4):
         info = f"## Chapter_{i}\n\n"
         for file in file_list:
             temp = f"- [{file}](https://github.com/xoxlo/data_structure_to_python_easy_practice/tree/main/Chapter_{i}/{file})\n"
