@@ -40,7 +40,13 @@ def make_info3(file_list):
 def make_read_me(info):
     return f"""
 # 파이썬으로 쉽게 배우는 자료구조 (개정판)
-![Python](https://img.shields.io/badge/Python-#3776AB?style=for-the-badge&logo=Python&logoColor=white)
+<div align=center><h1>📚 STACKS</h1></div>
+<div align=center> 
+    <img src="https://img.shields.io/badge/python-3776AB?style=for-the-badge&logo=python&logoColor=white">
+    <img src="https://img.shields.io/badge/java-007396?style=for-the-badge&logo=java&logoColor=white">
+    <img src="https://img.shields.io/badge/github-181717?style=for-the-badge&logo=github&logoColor=white">
+    <br>
+</div>
 >
 > 책 표지
 <img src="https://github.com/xoxlo/data_structure_to_python_easy_practice/assets/46445480/c4624456-228e-4d6a-a0d9-5c50ba664ee8" width="500" height="700"/>
