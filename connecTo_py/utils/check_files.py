@@ -9,7 +9,7 @@ def get_file_list():
   
   
 def make_info(file_list, total_file_cnt):
-    info = f"### Chapter_01\nTotal Practice Count: {total_file_cnt}개\n"
+    info = f"## Chapter_01\nTotal Practice Count: {total_file_cnt}개\n"
     for file in file_list:
         temp = f"- [{file}](https://github.com/xoxlo/data_structure_to_python_easy_practice/tree/main/Chapter_1/{file})\n"
         info += temp
