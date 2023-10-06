@@ -1,6 +1,5 @@
 import os
 
-
 def get_file_list():
     file_list = [file for file in os.listdir("/Users/songchangseok/Desktop/data_structure/data_structure_to_python_easy_practice/Chapter_1/") if "1" in file]
     file_list = sorted(file_list)
