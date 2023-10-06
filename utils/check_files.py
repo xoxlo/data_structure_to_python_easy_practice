@@ -1,28 +1,18 @@
 import os
 
 def get_file_list():
-    file_list = [file for file in os.listdir("./Chapter_1/") if "1" in file]
-    file_list = sorted(file_list)
-    return file_list
+    for i in range(1,13):
+        file_list = [file for file in os.listdir(f"./Chapter_{i}/") if f"{i}" in file]
+        file_list = sorted(file_list)
+        return file_list
   
 def make_info(file_list):
-    info = f"## Chapter_01\n\n"
-    for file in file_list:
-        temp = f"- [{file}](https://github.com/xoxlo/data_structure_to_python_easy_practice/tree/main/Chapter_1/{file})\n"
-        info += temp
-    return info
-
-def get_file_list2():
-    file_list = [file for file in os.listdir("./Chapter_2/") if "2" in file]
-    file_list = sorted(file_list)
-    return file_list
-  
-def make_info2(file_list):
-    info = f"## Chapter_02\n\n"
-    for file in file_list:
-        temp = f"- [{file}](https://github.com/xoxlo/data_structure_to_python_easy_practice/tree/main/Chapter_2/{file})\n"
-        info += temp
-    return info
+    for i in range(1,13):
+        info = f"## Chapter_{i}\n\n"
+        for file in file_list:
+            temp = f"- [{file}](https://github.com/xoxlo/data_structure_to_python_easy_practice/tree/main/Chapter_{i}/{file})\n"
+            info += temp
+        return info
     
 
 def make_read_me(info):
@@ -39,8 +29,7 @@ def make_read_me(info):
 
 def update_readme():
     file_list = get_file_list()
-    file_list2 = get_file_list2()
-    info = make_info(file_list) + make_info2(file_list2)
+    info = make_info(file_list)
     readme = make_read_me(info)
     return readme
 
