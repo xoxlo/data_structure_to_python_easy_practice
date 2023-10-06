@@ -5,10 +5,16 @@
 
 각 챕터별 코드 실습이나 연습 문제 위주로 올립니다.
 
-## Chapter_1
+## Chapter_01
 
 - [1.10.py](https://github.com/xoxlo/data_structure_to_python_easy_practice/tree/main/Chapter_1/1.10.py)
 - [1.11.py](https://github.com/xoxlo/data_structure_to_python_easy_practice/tree/main/Chapter_1/1.11.py)
 - [1.8.py](https://github.com/xoxlo/data_structure_to_python_easy_practice/tree/main/Chapter_1/1.8.py)
 - [1.test.py](https://github.com/xoxlo/data_structure_to_python_easy_practice/tree/main/Chapter_1/1.test.py)
+## Chapter_02
+
+- [2.5.py](https://github.com/xoxlo/data_structure_to_python_easy_practice/tree/main/Chapter_3/2.5.py)
+## Chapter_03
+
+- [ training_3.1.py](https://github.com/xoxlo/data_structure_to_python_easy_practice/tree/main/Chapter_3/ training_3.1.py)
 
