@@ -1,6 +1,6 @@
 
 # 파이썬으로 쉽게 배우는 자료구조 (개정판)
-![js](https://img.shields.io/badge/Python-#3776AB?style=for-the-badge&logo=Python&logoColor=white)
+![Python](https://img.shields.io/badge/Python-#3776AB?style=for-the-badge&logo=Python&logoColor=white)
 >
 > 책 표지
 <img src="https://github.com/xoxlo/data_structure_to_python_easy_practice/assets/46445480/c4624456-228e-4d6a-a0d9-5c50ba664ee8" width="500" height="700"/>
