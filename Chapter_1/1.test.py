@@ -5,3 +5,4 @@ def test():
     print("3차 TEST 입니다.")
     print("4차 TEST 입니다.")  
     print("5차 TEST 입니다.")  
+    print("6차 TEST 입니다.")  
