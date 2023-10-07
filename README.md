@@ -7,7 +7,9 @@
     <img src="https://img.shields.io/badge/github-181717?style=for-the-badge&logo=github&logoColor=white">
     <br>
 </div>
+
 > 책 표지
+
 <img src="https://github.com/xoxlo/data_structure_to_python_easy_practice/assets/46445480/c4624456-228e-4d6a-a0d9-5c50ba664ee8" width="500" height="700"/>
 
 각 챕터별 코드 실습이나 연습 문제 위주로 올립니다.
