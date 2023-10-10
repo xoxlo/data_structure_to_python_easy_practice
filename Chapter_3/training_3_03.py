@@ -35,7 +35,14 @@ class ArrayList:
         else: pass
         
     def replace(self, pos, e):
-        self.array[pos] = e
-
+        if not self.isEmpty() and 0<=pos<=self.size:
+            self.array[pos] = e # pos 위치에 새로운 e 항목을 대체 
+        else: pass
+        
+    def count(self, e):
+        for i in range(self.size, 0, -1):
+            if self.array[i] == e:
+                cnt+=1
+                
     def __str__(self):
         return str(self.array[0:self.size])  # string으로 Array 출력
