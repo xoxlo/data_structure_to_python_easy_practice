@@ -34,5 +34,8 @@ class ArrayList:
             return e # 복사해둔 항목 반환
         else: pass
         
+    def replace(self, pos, e):
+        self.array[pos] = e
+
     def __str__(self):
         return str(self.array[0:self.size])  # string으로 Array 출력

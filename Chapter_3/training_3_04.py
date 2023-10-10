@@ -14,3 +14,6 @@ L.delete(L.size-1)
 print("삭제(3)",L)
 L.delete(0)
 print("삭제(0)",L)
+
+L.replace(2, 100)
+print(L)
