@@ -37,7 +37,7 @@ while True:
         infile.close()
     
     elif command == 's':
-        filename = 'test.txt'
+        filename = input("저장할 파일(확장자 포함)을 입력하세요 : ")
         outfile = open(filename, "w")
         len = list.size
         for i in range(len):
