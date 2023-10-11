@@ -29,4 +29,5 @@
 - [training_3_03.py](https://github.com/xoxlo/data_structure_to_python_easy_practice/tree/main/Chapter_3/training_3_03.py)
 - [training_3_04.py](https://github.com/xoxlo/data_structure_to_python_easy_practice/tree/main/Chapter_3/training_3_04.py)
 - [training_3_05.py](https://github.com/xoxlo/data_structure_to_python_easy_practice/tree/main/Chapter_3/training_3_05.py)
+- [training_3_06.py](https://github.com/xoxlo/data_structure_to_python_easy_practice/tree/main/Chapter_3/training_3_06.py)
 
