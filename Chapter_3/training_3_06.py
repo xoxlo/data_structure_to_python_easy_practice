@@ -14,11 +14,10 @@ class ArraySet:
         return str(self.array[0:self.size])
         
     def contains(self, e): # 선택한 집합에 원소 e가 포함되어있는지 판단
-        for i in range(self, e):
-            for i in range(self.size):
-                if self.array[i] == e:
-                    return True # 원소 e가 있으면 True 반환
-            return False # 원소 e가 없으면 False 반환
+        for i in range(self.size):
+            if self.array[i] == e:
+                return True # 원소 e가 있으면 True 반환
+        return False # 원소 e가 없으면 False 반환
 
     def insert(self, e): # 선택한 집합에 원소 e를 삽입
         if not self.contains(e) and not self.isFull(): # 집한 안에 똑같은 원소 e가 없어야 하고 포화상태가 아니어야함.
