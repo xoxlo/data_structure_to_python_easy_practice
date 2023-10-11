@@ -3,7 +3,7 @@ from training_3_03 import *
 
 list = ArrayList()
 while True:
-    command = input("[메뉴선택] i-입력, d-삭제, r-변경, p-출력, l-파일읽기, s-저장, q-종료 => ")
+    command = input("[메뉴선택] i-입력, d-삭제, r-변경, f-찾기, p-출력, l-파일읽기, s-저장, q-종료 => ")
 
     if command == 'i':
         pos = int(input(" 입력행 번호 : "))
@@ -22,7 +22,7 @@ while True:
     elif command == 'p':
         print('Line Editor')
         for line in range(list.size):
-            print('[%2d] '%line, end='')
+            print('[%2d ] '%line, end='')
             print(list.getEntry(line))
         print()
         
@@ -31,7 +31,7 @@ while True:
     elif command == 'l':
         filename = input("읽을 파일(확장자 포함)을 입력하세요 : ")
         infile = open(filename, "r")
-        lines = infile.readlines();
+        lines = infile.readlines()
         for line in lines:
             list.insert(list.size, line.rstrip('\n'))
         infile.close()
@@ -43,3 +43,10 @@ while True:
         for i in range(len):
             outfile.write(list.getEntry(i)+'\n')
         outfile.close()
+        
+    elif command == 'f':
+        str = input('문자열을 입력해주세요 : ')
+        for line in range(list.size):
+            if str in list.getEntry(line):
+                print('[%2d ] '%line, end='')
+                print(list.getEntry(line))
