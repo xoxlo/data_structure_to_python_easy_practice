@@ -16,6 +16,7 @@ while True:
     
     elif command == 'l':
         filename = 'test.txt'
+        infile = open(filename, "r")
         lines = infile.readlines();
         for line in lines:
             list.insert(list.size, line.rstrip('\n'))
