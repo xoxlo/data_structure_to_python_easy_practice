@@ -16,7 +16,7 @@ while True:
     
     elif command == 'r':
         pos = int(input(" 변경행 번호 : "))
-        str = input(" 변경행 내용 : ")
+        str = input(" 변경행 내용 : ");
         list.replace(pos, str)
         
     elif command == 'p':
@@ -26,12 +26,12 @@ while True:
             print(list.getEntry(line))
         print()
         
-    elif command == 'q': exit()
+    elif command == 'q': break
     
     elif command == 'l':
         filename = 'test.txt'
         infile = open(filename, "r")
-        lines = infile.readlines()
+        lines = infile.readlines();
         for line in lines:
             list.insert(list.size, line.rstrip('\n'))
         infile.close()
