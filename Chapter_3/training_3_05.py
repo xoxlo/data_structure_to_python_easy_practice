@@ -29,7 +29,7 @@ while True:
     elif command == 'q': break
     
     elif command == 'l':
-        filename = 'test.txt'
+        filename = input("읽을 파일(확장자 포함)을 입력하세요 : ")
         infile = open(filename, "r")
         lines = infile.readlines();
         for line in lines:
