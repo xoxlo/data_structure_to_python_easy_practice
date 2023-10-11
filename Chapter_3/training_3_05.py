@@ -26,7 +26,7 @@ while True:
             print(list.getEntry(line))
         print()
         
-    elif command == 'q': break
+    elif command == 'q': exit()
     
     elif command == 'l':
         filename = input("읽을 파일(확장자 포함)을 입력하세요 : ")
