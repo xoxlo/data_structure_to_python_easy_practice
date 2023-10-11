@@ -41,7 +41,7 @@ class ArrayList:
         
     def count(self, e):
         cnt = 0
-        for i in range(0, self.size-1):
+        for i in range(0, self.size):
             if self.array[i] == e:
                 cnt+=1
         return cnt
