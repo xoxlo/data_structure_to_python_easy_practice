@@ -12,7 +12,7 @@ class ArrayList:
     def isFull(self):
         return self.size == self.capacity
     
-    def getEnty(self, pos):
+    def getEntry(self, pos):
         if 0 <= pos < self.size:
             return self.array[pos]
         else: return None
@@ -40,9 +40,11 @@ class ArrayList:
         else: pass
         
     def count(self, e):
-        for i in range(self.size, 0, -1):
+        cnt = 0
+        for i in range(0, self.size-1):
             if self.array[i] == e:
                 cnt+=1
+        return cnt
                 
     def __str__(self):
         return str(self.array[0:self.size])  # string으로 Array 출력

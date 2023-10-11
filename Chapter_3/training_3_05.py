@@ -1,5 +1,4 @@
 from training_3_03 import *
-
 # 배열구조의 리스트를 이용한 라인 편집기 프로그램
 
 list = ArrayList()
