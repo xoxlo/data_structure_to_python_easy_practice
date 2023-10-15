@@ -55,3 +55,23 @@ class ArraySet:
             if not setB.contains(self.array[i]): # 집합A의 각 원소들이 집합B에 포함이 안되어있다면
                 setC.insert(self.array[i]) # 임의의 집합C에다가 원소 삽입
         return setC # 집합C 반환 - 차집합
+    
+    
+    # 두 집합이 같은 집합인지 검사
+    def equals(self, setB):
+        setC = ArraySet()
+        for i in range(self.size):
+            if not setB.contains(self.array[i]): # 집합A와 집합B의 차집합한 결과
+                setC.insert(self.array[i]) # 집합C에다가 저장
+                
+        if setC.isEmpty(): # 만약 집합C에 공백일 시
+            return True # 두 집합은 같은 집합
+        else:
+            return False # 다를 시 두 집합은 다른 집합
+        
+    def __eq__(self, setB):
+        if self.array == setB.array:
+            return True
+        else:
+            return False
+        
