@@ -51,7 +51,7 @@ class ArrayList:
     
     def findMax(self):
         max = self.array[0]
-        for i in range(0,self.size-1):
+        for i in range(0, self.size-1):
             if max < self.array[i]:
                 max = self.array[i]
             elif self.isEmpty():
