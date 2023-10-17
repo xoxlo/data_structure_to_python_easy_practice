@@ -25,6 +25,7 @@
 ## Chapter_03
 
 - [3.11.py](https://github.com/xoxlo/data_structure_to_python_easy_practice/tree/main/Chapter_3/3.11.py)
+- [3.13.py](https://github.com/xoxlo/data_structure_to_python_easy_practice/tree/main/Chapter_3/3.13.py)
 - [training_3_01.py](https://github.com/xoxlo/data_structure_to_python_easy_practice/tree/main/Chapter_3/training_3_01.py)
 - [training_3_02.py](https://github.com/xoxlo/data_structure_to_python_easy_practice/tree/main/Chapter_3/training_3_02.py)
 - [training_3_03.py](https://github.com/xoxlo/data_structure_to_python_easy_practice/tree/main/Chapter_3/training_3_03.py)
