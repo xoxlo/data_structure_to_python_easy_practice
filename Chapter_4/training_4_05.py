@@ -24,7 +24,7 @@ def evalPostfix( expr ):
             
     return s.pop() # 최종결과가 스택에 저장되서 마지막 결과값 반환
 
-expr1 = ['4','2','/','3','-','6','7','+','*']
-expr2 = ['5','2','/','3','5','8','*','8','+']
-print(expr1, '-->', evalPostfix(expr1))
-print(expr2, '-->', evalPostfix(expr2))
+# expr1 = ['4','2','/','3','-','6','7','+','*']
+# expr2 = ['5','2','/','3','5','8','*','8','+']
+# print(expr1, '-->', evalPostfix(expr1))
+# print(expr2, '-->', evalPostfix(expr2))

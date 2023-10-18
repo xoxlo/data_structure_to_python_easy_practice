@@ -19,11 +19,5 @@ def checkBrackets(statement): # stack에 {,},[,],(,) 를 저장하여 올바르�
                     
     return stack.isEmpty() # stack에 아무것도 없으면 True 반환
 
-
-
-s1 = " { A[i+1] = 0;}                "
-s2 = " if((i=='안호영') && (j=='송창석')"
-s3 = " A[ ( i + 1 } ) ] = 0          "
-print(s1, " ---> ", checkBrackets(s1))
-print(s2, " ---> ", checkBrackets(s2))
-print(s3, " ---> ", checkBrackets(s3))
+str = input("파이썬 소스 코드를 입력하세요.")
+print(checkBrackets(str))
