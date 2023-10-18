@@ -49,11 +49,20 @@ class ArrayList:
     def __str__(self):
         return str(self.array[0:self.size])  # string으로 Array 출력
     
-    def findMax(self):
+    def findMax_me(self):
         max = self.array[0]
         for i in range(0, self.size-1):
             if max < self.array[i]:
                 max = self.array[i]
             elif self.isEmpty():
                 return -1
+        return max
+    
+    def findMax_answer(self):
+        if self.isEmpty():
+            return -1
+        max = 0
+        for i in range(1, self.size):
+            if self.array[max] < self.array[i]:
+                max = i
         return max
