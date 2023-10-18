@@ -6,7 +6,7 @@ from training_4_04 import checkBrackets
 # (1) 소스 파일을 읽어 괄호를 검사하는 프로그램을 완성하라. 임의의 파이썬 소스 코드
 #     (.py)를 입력하면 괄호 검사가 되도록 하라.
 str = input("임의의 파이썬 코드(.py)를 입력해주세요.")
-print()
+print(str,"---> 괄호 검사 결과 : ",checkBrackets(str))
 
 
 # (2) 괄호 매칭이 실패하면 조건 1~3 중에서 어떤 조건을 위반했는지를 출력할 수 있도

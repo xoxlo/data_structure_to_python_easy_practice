@@ -18,6 +18,3 @@ def checkBrackets(statement): # stack에 {,},[,],(,) 를 저장하여 올바르�
                         return False # left에 있는 괄호와 짝이 안맞으면 False 반환
                     
     return stack.isEmpty() # stack에 아무것도 없으면 True 반환
-
-str = input("파이썬 소스 코드를 입력하세요.")
-print(checkBrackets(str))
