@@ -3,7 +3,7 @@
 
 class ArrayStack:
     def __init__(self,capacity):
-        self.capacity = 10
+        self.capacity = capacity
         self.array = [None]*capacity
         self.top = -1
 
@@ -32,3 +32,6 @@ class ArrayStack:
             return self.array[self.top]
         else:
             pass # 언더플로 예외, d처리하지 않음.
+        
+    def __str__(self):
+        return str(self.array[0:self.top+1])
