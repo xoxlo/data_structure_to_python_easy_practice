@@ -1,4 +1,5 @@
 from training_5_01_03 import CircularQueue
+
 # 스택의 연산 : 클래스의 멤버 함수로 구현
 class ArrayStack:
     def __init__(self,capacity):
@@ -76,12 +77,13 @@ def DFS():
         print(" 현재 스택 : ", stack)
     return False                    
 
-def BFS() :
+def BFS():
     que = CircularQueue()
-    que.equeue((0,1))
+    que.enqueue((0,1))
     print('BFS : ')
     while not que.isEmpty():
         here = que.dequeue()
+        print(here,end='->')
         x,y = here
         if (map[y][x] == 'x'):
             return True
@@ -95,3 +97,9 @@ def BFS() :
                 que.enqueue((x-1, y))
             if isValidPos(x+1, y): # 우
                 que.enqueue((x+1, y))
+    return False
+
+result = BFS()
+if result : print(' --> 미로 탐색 성공')
+else : print(' --> 미로 탐색 실패')
+
