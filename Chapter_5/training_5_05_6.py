@@ -98,8 +98,3 @@ def BFS():
             if isValidPos(x+1, y): # 우
                 que.enqueue((x+1, y))
     return False
-
-result = BFS()
-if result : print(' --> 미로 탐색 성공')
-else : print(' --> 미로 탐색 실패')
-
