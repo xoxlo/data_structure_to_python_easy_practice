@@ -47,6 +47,18 @@ def make_info4(file_list):
         temp = f"- [{file}](https://github.com/xoxlo/data_structure_to_python_easy_practice/tree/main/Chapter_4/{file})\n"
         info += temp
     return info
+
+def get_file_list5():
+    file_list = [file for file in os.listdir("./Chapter_5/") if '.py' in file]
+    file_list = sorted(file_list)
+    return file_list
+  
+def make_info4(file_list):
+    info = f"## Chapter_05\n\n"
+    for file in file_list:
+        temp = f"- [{file}](https://github.com/xoxlo/data_structure_to_python_easy_practice/tree/main/Chapter_5/{file})\n"
+        info += temp
+    return info
     
 
 def make_read_me(info):
@@ -75,7 +87,8 @@ def update_readme():
     file_list2 = get_file_list2()
     file_list3 = get_file_list3()
     file_list4 = get_file_list4()
-    info = make_info(file_list) + make_info2(file_list2) + make_info3(file_list3) + make_info4(file_list4)
+    file_list5 = get_file_list5()
+    info = make_info(file_list) + make_info2(file_list2) + make_info3(file_list3) + make_info4(file_list4) + make_info5(file_list4)
     readme = make_read_me(info)
     return readme
 
