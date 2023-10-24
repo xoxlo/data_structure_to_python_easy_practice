@@ -22,8 +22,14 @@
 - [1.13.py](https://github.com/xoxlo/data_structure_to_python_easy_practice/tree/main/Chapter_1/1.13.py)
 ## Chapter_02
 
+- [2.12.py](https://github.com/xoxlo/data_structure_to_python_easy_practice/tree/main/Chapter_3/2.12.py)
+- [2.15.py](https://github.com/xoxlo/data_structure_to_python_easy_practice/tree/main/Chapter_3/2.15.py)
 - [2.5.py](https://github.com/xoxlo/data_structure_to_python_easy_practice/tree/main/Chapter_3/2.5.py)
+- [2.7.py](https://github.com/xoxlo/data_structure_to_python_easy_practice/tree/main/Chapter_3/2.7.py)
+- [2.8.py](https://github.com/xoxlo/data_structure_to_python_easy_practice/tree/main/Chapter_3/2.8.py)
 - [challenge_1.py](https://github.com/xoxlo/data_structure_to_python_easy_practice/tree/main/Chapter_3/challenge_1.py)
+- [challenge_2.py](https://github.com/xoxlo/data_structure_to_python_easy_practice/tree/main/Chapter_3/challenge_2.py)
+- [challenge_3.py](https://github.com/xoxlo/data_structure_to_python_easy_practice/tree/main/Chapter_3/challenge_3.py)
 - [training_2_01.py](https://github.com/xoxlo/data_structure_to_python_easy_practice/tree/main/Chapter_3/training_2_01.py)
 - [training_2_02.py](https://github.com/xoxlo/data_structure_to_python_easy_practice/tree/main/Chapter_3/training_2_02.py)
 ## Chapter_03
