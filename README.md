@@ -67,4 +67,13 @@
 - [training_5_09.py](https://github.com/xoxlo/data_structure_to_python_easy_practice/tree/main/Chapter_5/training_5_09.py)
 - [training_5_10.py](https://github.com/xoxlo/data_structure_to_python_easy_practice/tree/main/Chapter_5/training_5_10.py)
 - [training_5_11.py](https://github.com/xoxlo/data_structure_to_python_easy_practice/tree/main/Chapter_5/training_5_11.py)
+## Chapter_06
+
+- [training_6_01.py](https://github.com/xoxlo/data_structure_to_python_easy_practice/tree/main/Chapter_6/training_6_01.py)
+## Chapter_07
+
+- [training_7_01.py](https://github.com/xoxlo/data_structure_to_python_easy_practice/tree/main/Chapter_7/training_7_01.py)
+- [training_7_02.py](https://github.com/xoxlo/data_structure_to_python_easy_practice/tree/main/Chapter_7/training_7_02.py)
+- [training_7_03.py](https://github.com/xoxlo/data_structure_to_python_easy_practice/tree/main/Chapter_7/training_7_03.py)
+- [training_7_04.py](https://github.com/xoxlo/data_structure_to_python_easy_practice/tree/main/Chapter_7/training_7_04.py)
 
