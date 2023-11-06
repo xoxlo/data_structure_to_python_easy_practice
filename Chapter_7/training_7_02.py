@@ -10,3 +10,7 @@ def insertion_sort(A): # 삽입 정렬
             j -= 1 # 0이 될 때까지 반복
         A[j + 1] = key # key값을 한칸씩 뒤로 변경
         printStep(A, i)
+
+
+B = [8, 3, 4, 9, 7]
+insertion_sort(B)

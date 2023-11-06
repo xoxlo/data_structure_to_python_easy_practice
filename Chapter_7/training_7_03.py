@@ -10,4 +10,4 @@ def bubble_sort(A): # 버블 정렬
                 bChanged = True
         if not bChanged:
             break
-    printStep(A, n-1)
+        printStep(A, n-i);
