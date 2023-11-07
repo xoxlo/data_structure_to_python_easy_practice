@@ -1,4 +1,4 @@
-def binary_search(A, key, low, high):
+def binary_search(A, key, low, high): # 이진 탐색 (반복)
     while(low <= high): # 탐색할 항목이 하나 이상
         middle = (low + high) // 2
         
