@@ -79,5 +79,8 @@
 - [training_7_07.py](https://github.com/xoxlo/data_structure_to_python_easy_practice/tree/main/Chapter_7/training_7_07.py)
 - [training_7_08.py](https://github.com/xoxlo/data_structure_to_python_easy_practice/tree/main/Chapter_7/training_7_08.py)
 - [training_7_09.py](https://github.com/xoxlo/data_structure_to_python_easy_practice/tree/main/Chapter_7/training_7_09.py)
+- [training_7_09_interpolation.py](https://github.com/xoxlo/data_structure_to_python_easy_practice/tree/main/Chapter_7/training_7_09_interpolation.py)
 - [training_7_10.py](https://github.com/xoxlo/data_structure_to_python_easy_practice/tree/main/Chapter_7/training_7_10.py)
+- [training_7_11.py](https://github.com/xoxlo/data_structure_to_python_easy_practice/tree/main/Chapter_7/training_7_11.py)
+- [training_7_12.py](https://github.com/xoxlo/data_structure_to_python_easy_practice/tree/main/Chapter_7/training_7_12.py)
 
