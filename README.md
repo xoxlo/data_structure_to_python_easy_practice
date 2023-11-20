@@ -90,4 +90,7 @@
 - [training_7_13.py](https://github.com/xoxlo/data_structure_to_python_easy_practice/tree/main/Chapter_7/training_7_13.py)
 - [training_7_14.py](https://github.com/xoxlo/data_structure_to_python_easy_practice/tree/main/Chapter_7/training_7_14.py)
 - [training_7_15.py](https://github.com/xoxlo/data_structure_to_python_easy_practice/tree/main/Chapter_7/training_7_15.py)
+## Chapter_08
+
+- [training_8_01.py](https://github.com/xoxlo/data_structure_to_python_easy_practice/tree/main/Chapter_8/training_8_01.py)
 
