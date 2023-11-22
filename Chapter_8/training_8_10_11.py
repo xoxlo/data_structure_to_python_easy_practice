@@ -12,6 +12,6 @@ def encode(ch):
 
 def decode_slow(code): # 순차 탐색 - 모스 코드 디코딩
     for e in table:
-        if code == e[1]:
-            return e[0]
+        if code == e[1]: # 0 -> 문자를 받아서
+            return e[0] # 1 -> 모스부호로 변환
     return None
