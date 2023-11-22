@@ -102,4 +102,5 @@
 - [training_8_12.py](https://github.com/xoxlo/data_structure_to_python_easy_practice/tree/main/Chapter_8/training_8_12.py)
 - [training_8_13.py](https://github.com/xoxlo/data_structure_to_python_easy_practice/tree/main/Chapter_8/training_8_13.py)
 - [training_8_14.py](https://github.com/xoxlo/data_structure_to_python_easy_practice/tree/main/Chapter_8/training_8_14.py)
+- [training_8_15.py](https://github.com/xoxlo/data_structure_to_python_easy_practice/tree/main/Chapter_8/training_8_15.py)
 
