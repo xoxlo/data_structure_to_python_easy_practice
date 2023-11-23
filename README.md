@@ -93,6 +93,7 @@
 ## Chapter_08
 
 - [8_20.py](https://github.com/xoxlo/data_structure_to_python_easy_practice/tree/main/Chapter_8/8_20.py)
+- [sound.py](https://github.com/xoxlo/data_structure_to_python_easy_practice/tree/main/Chapter_8/sound.py)
 - [training_8_01.py](https://github.com/xoxlo/data_structure_to_python_easy_practice/tree/main/Chapter_8/training_8_01.py)
 - [training_8_02_4.py](https://github.com/xoxlo/data_structure_to_python_easy_practice/tree/main/Chapter_8/training_8_02_4.py)
 - [training_8_05.py](https://github.com/xoxlo/data_structure_to_python_easy_practice/tree/main/Chapter_8/training_8_05.py)
