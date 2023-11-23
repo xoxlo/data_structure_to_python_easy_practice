@@ -1,5 +1,5 @@
 def heappop(heap): # 최대 힙의 삭제 연산 함수
-    size = len(heap) - 1 # 힙의 노드의 개수 (0번 인덱스 사용 X)
+    size = len(heap)-1 # 힙의 노드의 개수 (0번 인덱스 사용 X)
     if size == 0: # 노드의 개수가 없으면
         return None # 공백 힙
     pi = 1 # 부모 노드의 인덱스 위치

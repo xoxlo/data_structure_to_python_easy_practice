@@ -5,13 +5,13 @@ from training_8_06_7 import count_leaf, count_node
 from training_8_08 import calc_height
 
 d = TNode('D',None,None) # D 삽입, 자식 없음
-e = TNode('E',None,None)
+e = TNode('F',None,None)
 b = TNode('B',d,e) # B 삽입, 왼쪽 자식 -> d, 오른쪽 자식 -> e
 f = TNode('F',None,None)
 c = TNode('C',f,None) # C 삽입, 왼쪽 자식 -> f, 오른쪽 자식 -> 없음
-root = TNode('A',b,c) # 루트 노드에 A 삽입, 왼쪽 자식 -> b, 오른쪽 자식 -> c
+root = TNode('A',b,e) # 루트 노드에 A 삽입, 왼쪽 자식 -> b, 오른쪽 자식 -> c
 
-
+    
 print('\nIn-Order    : ', end='') # 중위 순회 ( LVR )
 inorder(root)
 print('\nPre-Order   : ', end='') # 전위 순회 ( VLR )
