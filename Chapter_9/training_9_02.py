@@ -1,4 +1,4 @@
-def search_bst(n, key): # 이진탐색트리의 탐색 ( 순환 구조 )
+def search_bst(n, key): # 이진탐색트리의 탐색 ( 순환 )
     if n == None:
         return None
     elif key == n.key: # n의 키값과 동일 -> 탐색 성공
