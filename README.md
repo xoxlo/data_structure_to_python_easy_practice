@@ -107,17 +107,9 @@
 - [training_8_17.py](https://github.com/xoxlo/data_structure_to_python_easy_practice/tree/main/Chapter_8/training_8_17.py)
 ## Chapter_09
 
-- [8_20.py](https://github.com/xoxlo/data_structure_to_python_easy_practice/tree/main/Chapter_9/8_20.py)
-- [training_8_01.py](https://github.com/xoxlo/data_structure_to_python_easy_practice/tree/main/Chapter_9/training_8_01.py)
-- [training_8_02_4.py](https://github.com/xoxlo/data_structure_to_python_easy_practice/tree/main/Chapter_9/training_8_02_4.py)
-- [training_8_05.py](https://github.com/xoxlo/data_structure_to_python_easy_practice/tree/main/Chapter_9/training_8_05.py)
-- [training_8_06_7.py](https://github.com/xoxlo/data_structure_to_python_easy_practice/tree/main/Chapter_9/training_8_06_7.py)
-- [training_8_08.py](https://github.com/xoxlo/data_structure_to_python_easy_practice/tree/main/Chapter_9/training_8_08.py)
-- [training_8_09.py](https://github.com/xoxlo/data_structure_to_python_easy_practice/tree/main/Chapter_9/training_8_09.py)
-- [training_8_10_11.py](https://github.com/xoxlo/data_structure_to_python_easy_practice/tree/main/Chapter_9/training_8_10_11.py)
-- [training_8_12.py](https://github.com/xoxlo/data_structure_to_python_easy_practice/tree/main/Chapter_9/training_8_12.py)
-- [training_8_13.py](https://github.com/xoxlo/data_structure_to_python_easy_practice/tree/main/Chapter_9/training_8_13.py)
-- [training_8_14.py](https://github.com/xoxlo/data_structure_to_python_easy_practice/tree/main/Chapter_9/training_8_14.py)
-- [training_8_15.py](https://github.com/xoxlo/data_structure_to_python_easy_practice/tree/main/Chapter_9/training_8_15.py)
-- [training_8_17.py](https://github.com/xoxlo/data_structure_to_python_easy_practice/tree/main/Chapter_9/training_8_17.py)
+- [training_9_01.py](https://github.com/xoxlo/data_structure_to_python_easy_practice/tree/main/Chapter_9/training_9_01.py)
+- [training_9_02.py](https://github.com/xoxlo/data_structure_to_python_easy_practice/tree/main/Chapter_9/training_9_02.py)
+- [training_9_03.py](https://github.com/xoxlo/data_structure_to_python_easy_practice/tree/main/Chapter_9/training_9_03.py)
+- [training_9_04.py](https://github.com/xoxlo/data_structure_to_python_easy_practice/tree/main/Chapter_9/training_9_04.py)
+- [training_9_05.py](https://github.com/xoxlo/data_structure_to_python_easy_practice/tree/main/Chapter_9/training_9_05.py)
 
