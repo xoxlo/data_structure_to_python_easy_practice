@@ -97,7 +97,7 @@ def make_info8(file_list):
     return info
 
 def get_file_list9():
-    file_list = [file for file in os.listdir("./Chapter_8/") if '.py' in file]
+    file_list = [file for file in os.listdir("./Chapter_9/") if '.py' in file]
     file_list = sorted(file_list)
     return file_list
   
