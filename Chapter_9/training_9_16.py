@@ -7,3 +7,11 @@ root = None
 for i in node:
     n = BSTNode(i)
     root = insert_avl(root, n)
+    
+    print("BST(%d): ",%i, end='')
+    levelorder(root)
+    print()
+    
+    print(" 노드의 개수 = ",count_node(root))
+    print(" 단말의 개수 = ",count_leaf(root))
+    print(" 트리의 높이 = ",calc_height(root))
