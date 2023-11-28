@@ -28,8 +28,9 @@ def delete_bst(root, key):
         if root.right == None:
             return root.left
         
-        succ == search_min_bst(root.right)
+        succ = search_min_bst(root.right)
         root.key = succ.key
         root.value = succ.value
         root.right = delete_bst(root.right, succ.key)
     
+    return root
