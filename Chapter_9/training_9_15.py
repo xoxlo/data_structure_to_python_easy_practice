@@ -1,0 +1,1 @@
+def insert_avl(root, node):
