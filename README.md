@@ -108,8 +108,7 @@
 ## Chapter_09
 
 - [CircularQueue_levelorder.py](https://github.com/xoxlo/data_structure_to_python_easy_practice/tree/main/Chapter_9/CircularQueue_levelorder.py)
-- [training_9_01.py](https://github.com/xoxlo/data_structure_to_python_easy_practice/tree/main/Chapter_9/training_9_01.py)
-- [training_9_02.py](https://github.com/xoxlo/data_structure_to_python_easy_practice/tree/main/Chapter_9/training_9_02.py)
+- [training_9_01_2.py](https://github.com/xoxlo/data_structure_to_python_easy_practice/tree/main/Chapter_9/training_9_01_2.py)
 - [training_9_03.py](https://github.com/xoxlo/data_structure_to_python_easy_practice/tree/main/Chapter_9/training_9_03.py)
 - [training_9_04.py](https://github.com/xoxlo/data_structure_to_python_easy_practice/tree/main/Chapter_9/training_9_04.py)
 - [training_9_05.py](https://github.com/xoxlo/data_structure_to_python_easy_practice/tree/main/Chapter_9/training_9_05.py)
