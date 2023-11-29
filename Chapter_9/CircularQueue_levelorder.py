@@ -50,7 +50,7 @@ def levelorder(root):  # 이진트리 - 레벨순회
     while not queue.isEmpty():  # 큐가 공백 상태가 아닌 동안
         n = queue.dequeue()  # 큐에서 맨 앞의 n을 꺼냄
         if n is not None:
-            print(n.value, end=' ')  # 수정: 노드의 값을 'value' 속성을 통해 출력
+            print(n.key, end=' ')  # 수정: 노드의 값을 'value' 속성을 통해 출력
             queue.enqueue(n.left)  # 왼쪽 자식 노드를 큐에 삽입
             queue.enqueue(n.right)  # 오른쪽 자식 노드를 큐에 삽입  
 
