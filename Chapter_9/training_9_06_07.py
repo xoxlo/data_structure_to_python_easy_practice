@@ -1,4 +1,4 @@
-from training_9_05 import *
+from training_9_05 import * # 최대값, 최소값 노드 탐색 모듈 불러오기
 
 def insert_bst(root, node): # 이진탐색트리의 삽입 연산
     if root == None: # root노드가 공백에 도달하면

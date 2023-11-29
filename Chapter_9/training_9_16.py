@@ -1,5 +1,4 @@
-from training_9_01 import * # BSTNode 생성 모듈 불러오기
-from training_9_02 import * # 이진탐색트리 탐색 모듈 불러오기
+from training_9_01_2 import * # BSTNode 생성, 이진탐색트리 탐색 모듈 불러오기
 from training_9_15 import * # AVL트리 삽입 모듈 불러오기
 from CircularQueue_levelorder import *
 
