@@ -14,6 +14,14 @@
 
 각 챕터별 코드 실습이나 연습 문제 위주로 올립니다.
 
+## PRACTICE
+
+- [Chapter1.md](https://github.com/xoxlo/data_structure_to_python_easy_practice/tree/main/PRACTICE/Chapter1.md)
+- [Chapter2.md](https://github.com/xoxlo/data_structure_to_python_easy_practice/tree/main/PRACTICE/Chapter2.md)
+- [Chapter3.md](https://github.com/xoxlo/data_structure_to_python_easy_practice/tree/main/PRACTICE/Chapter3.md)
+- [Chapter7.md](https://github.com/xoxlo/data_structure_to_python_easy_practice/tree/main/PRACTICE/Chapter7.md)
+- [Chapter8.md](https://github.com/xoxlo/data_structure_to_python_easy_practice/tree/main/PRACTICE/Chapter8.md)
+- [Chapter9.md](https://github.com/xoxlo/data_structure_to_python_easy_practice/tree/main/PRACTICE/Chapter9.md)
 ## Chapter_01
 
 - [1.08.py](https://github.com/xoxlo/data_structure_to_python_easy_practice/tree/main/Chapter_1/1.08.py)
