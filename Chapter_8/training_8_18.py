@@ -33,3 +33,49 @@ def levelorder(root): # 이진트리 - 레벨순회
             print(n.data, end='') # 노드의 정보 출력
             queue.enqueue(n.left) # 왼쪽 자식 노드를 큐에 삽입
             queue.enqueue(n.right) # 오른쪽 자식 노드를 큐에 삽입
+    
+def count_node(n): # 순환을 이용해 트리의 노드 수 계산하는 함수
+    if n is None: # n이 None이면 공백트리, 0을 반환
+        return 0
+    else: # 좌우 서브트리의 노드 수의 합 + 1을 반환
+        return 1 + count_node(n.left) + count_node(n.right)
+    
+def count_leaf(n): # 단말 노드 수 계산 함수
+    if n is None: # 공백트리 -> 0 반환
+        return 0
+    elif n.left is None and n.right is None: # 단말노드 -> 1 반환
+        return 1
+    else:
+        return count_leaf(n.left) + count_leaf(n.right) # 비단말 노드 -> 좌 + 우 결과 합
+
+def calc_height(n): # 이진트리의 높이 계산 함수
+    if n is None: # 공백 트리 -> 0 반환
+        return 0
+    hLeft = calc_height(n.left) # 왼쪽트리의 높이
+    hRight = calc_height(n.right) # 오른쪽트리의 높이
+    if (hLeft > hRight): # 높이는 좌,우 어느 곳이든 상관없으니까 더 높은 트리에다가 +1을 해주면서 반환
+        return hLeft + 1
+    else:
+        return hRight + 1
+    
+d = TNode('D',None,None) # D 삽입, 자식 없음
+e = TNode('F',None,None)
+b = TNode('B',d,e) # B 삽입, 왼쪽 자식 -> d, 오른쪽 자식 -> e
+f = TNode('F',None,None)
+c = TNode('C',f,None) # C 삽입, 왼쪽 자식 -> f, 오른쪽 자식 -> 없음
+root = TNode('A',b,e) # 루트 노드에 A 삽입, 왼쪽 자식 -> b, 오른쪽 자식 -> c
+
+    
+print('\nIn-Order    : ', end='') # 중위 순회 ( LVR )
+inorder(root)
+print('\nPre-Order   : ', end='') # 전위 순회 ( VLR )
+preorder(root)
+print('\nPost-Order  : ', end='') # 후위 순회 ( LRV )
+postorder(root)
+print('\nLevel-Order : ', end='') # 레벨 순회
+levelorder(root)
+print()
+
+print("노드의 개수 = %d개" % count_node(root))
+print("단말의 개수 = %d개" % count_leaf(root))
+print("트리의 높이 = %d" % calc_height(root))
