@@ -57,15 +57,17 @@ def calc_height(n): # 이진트리의 높이 계산 함수
         return hLeft + 1
     else:
         return hRight + 1
-    
-d = TNode('D',None,None) # D 삽입, 자식 없음
-e = TNode('F',None,None)
-b = TNode('B',d,e) # B 삽입, 왼쪽 자식 -> d, 오른쪽 자식 -> e
-f = TNode('F',None,None)
-c = TNode('C',f,None) # C 삽입, 왼쪽 자식 -> f, 오른쪽 자식 -> 없음
-root = TNode('A',b,e) # 루트 노드에 A 삽입, 왼쪽 자식 -> b, 오른쪽 자식 -> c
 
-    
+g = TNode('G',None,None)
+h = TNode('H',None,None)
+d = TNode('D',None,None)
+b = TNode('B',d,None)
+e = TNode('E',g,h)
+f = TNode('F',None,None)
+c = TNode('C',e,f)
+root = TNode('A',b,c)
+
+print("\n========== CHAPTER 9 연습문제 8.18 왼쪽 트리==========")    
 print('\nIn-Order    : ', end='') # 중위 순회 ( LVR )
 inorder(root)
 print('\nPre-Order   : ', end='') # 전위 순회 ( VLR )
@@ -75,7 +77,31 @@ postorder(root)
 print('\nLevel-Order : ', end='') # 레벨 순회
 levelorder(root)
 print()
+print("노드의 개수 = %d개" % count_node(root))
+print("단말의 개수 = %d개" % count_leaf(root))
+print("트리의 높이 = %d" % calc_height(root))
 
+
+a = TNode('A',None,None)
+b = TNode('B',None,None)
+c = TNode('C',None,None)
+e = TNode('E',None,None)
+d = TNode('D',None,None)
+slash = TNode('/',a,b)
+aster2 = TNode('*',slash,c)
+aster1 = TNode('*',aster2,d)
+root = TNode('+',aster1,e)
+
+print("\n========== CHAPTER 9 연습문제 8.18 오른쪽 트리==========")    
+print('\nIn-Order    : ', end='') # 중위 순회 ( LVR )
+inorder(root)
+print('\nPre-Order   : ', end='') # 전위 순회 ( VLR )
+preorder(root)
+print('\nPost-Order  : ', end='') # 후위 순회 ( LRV )
+postorder(root)
+print('\nLevel-Order : ', end='') # 레벨 순회
+levelorder(root)
+print()
 print("노드의 개수 = %d개" % count_node(root))
 print("단말의 개수 = %d개" % count_leaf(root))
 print("트리의 높이 = %d" % calc_height(root))
