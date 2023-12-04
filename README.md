@@ -101,6 +101,7 @@
 ## Chapter_08
 
 - [8_20.py](https://github.com/xoxlo/data_structure_to_python_easy_practice/tree/main/Chapter_8/8_20.py)
+- [CircularQueue.py](https://github.com/xoxlo/data_structure_to_python_easy_practice/tree/main/Chapter_8/CircularQueue.py)
 - [training_8_01.py](https://github.com/xoxlo/data_structure_to_python_easy_practice/tree/main/Chapter_8/training_8_01.py)
 - [training_8_02_4.py](https://github.com/xoxlo/data_structure_to_python_easy_practice/tree/main/Chapter_8/training_8_02_4.py)
 - [training_8_05.py](https://github.com/xoxlo/data_structure_to_python_easy_practice/tree/main/Chapter_8/training_8_05.py)
@@ -113,6 +114,7 @@
 - [training_8_14.py](https://github.com/xoxlo/data_structure_to_python_easy_practice/tree/main/Chapter_8/training_8_14.py)
 - [training_8_15.py](https://github.com/xoxlo/data_structure_to_python_easy_practice/tree/main/Chapter_8/training_8_15.py)
 - [training_8_17.py](https://github.com/xoxlo/data_structure_to_python_easy_practice/tree/main/Chapter_8/training_8_17.py)
+- [training_8_18.py](https://github.com/xoxlo/data_structure_to_python_easy_practice/tree/main/Chapter_8/training_8_18.py)
 ## Chapter_09
 
 - [CircularQueue_levelorder.py](https://github.com/xoxlo/data_structure_to_python_easy_practice/tree/main/Chapter_9/CircularQueue_levelorder.py)
