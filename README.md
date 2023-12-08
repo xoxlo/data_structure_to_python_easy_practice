@@ -12,7 +12,7 @@
 
 <img src="https://github.com/xoxlo/data_structure_to_python_easy_practice/assets/46445480/c4624456-228e-4d6a-a0d9-5c50ba664ee8" width="500" height="700"/>
 
-각 챕터별 코드 실습이나 연습 문제 위주로 올립니다.
+각 챕터별 코드 실습 및 연습 문제 위주
 
 ## PRACTICE
 
@@ -127,4 +127,10 @@
 - [training_9_11_14.py](https://github.com/xoxlo/data_structure_to_python_easy_practice/tree/main/Chapter_9/training_9_11_14.py)
 - [training_9_15.py](https://github.com/xoxlo/data_structure_to_python_easy_practice/tree/main/Chapter_9/training_9_15.py)
 - [training_9_16.py](https://github.com/xoxlo/data_structure_to_python_easy_practice/tree/main/Chapter_9/training_9_16.py)
+## Chapter_10
+
+- [10_04.py](https://github.com/xoxlo/data_structure_to_python_easy_practice/tree/main/Chapter_10/10_04.py)
+- [training_10_01_2.py](https://github.com/xoxlo/data_structure_to_python_easy_practice/tree/main/Chapter_10/training_10_01_2.py)
+- [training_10_03_4.py](https://github.com/xoxlo/data_structure_to_python_easy_practice/tree/main/Chapter_10/training_10_03_4.py)
+- [training_10_10.py](https://github.com/xoxlo/data_structure_to_python_easy_practice/tree/main/Chapter_10/training_10_10.py)
 
