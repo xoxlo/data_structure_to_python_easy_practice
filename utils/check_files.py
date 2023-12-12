@@ -31,7 +31,7 @@ def get_file_list2():
 def make_info2(file_list):
     info = f"## Chapter_02\n\n"
     for file in file_list:
-        temp = f"- [{file}](https://github.com/xoxlo/data_structure_to_python_easy_practice/tree/main/Chapter_3/{file})\n"
+        temp = f"- [{file}](https://github.com/xoxlo/data_structure_to_python_easy_practice/tree/main/Chapter_2/{file})\n"
         info += temp
     return info
 
