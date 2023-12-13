@@ -149,7 +149,7 @@ def get_file_list12():
     return file_list
   
 def make_info12(file_list):
-    info = f"## Chapter_11\n\n"
+    info = f"## Chapter_12\n\n"
     for file in file_list:
         temp = f"- [{file}](https://github.com/xoxlo/data_structure_to_python_easy_practice/tree/main/Chapter_12/{file})\n"
         info += temp
