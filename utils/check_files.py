@@ -143,6 +143,18 @@ def make_info11(file_list):
         info += temp
     return info
 
+def get_file_list12():
+    file_list = [file for file in os.listdir("./Chapter_12/") if '.py' in file]
+    file_list = sorted(file_list)
+    return file_list
+  
+def make_info12(file_list):
+    info = f"## Chapter_11\n\n"
+    for file in file_list:
+        temp = f"- [{file}](https://github.com/xoxlo/data_structure_to_python_easy_practice/tree/main/Chapter_12/{file})\n"
+        info += temp
+    return info
+
 def make_read_me(info):
     return f"""
 # 파이썬으로 쉽게 배우는 자료구조 (개정판)
@@ -177,8 +189,10 @@ def update_readme():
     file_list9 = get_file_list9()
     file_list10 = get_file_list10()
     file_list11 = get_file_list11()
+    file_list12 = get_file_list12()
     info = make_info_prac(file_list_prac) + make_info(file_list) + make_info2(file_list2) + make_info3(file_list3) + make_info4(file_list4) + make_info5(file_list5) + \
-            make_info6(file_list6) + make_info7(file_list7) + make_info8(file_list8) + make_info9(file_list9) + make_info10(file_list10) + make_info11(file_list11)
+            make_info6(file_list6) + make_info7(file_list7) + make_info8(file_list8) + make_info9(file_list9) + make_info10(file_list10) + make_info11(file_list11) + \
+                make_info12(file_list12)
     readme = make_read_me(info)
     return readme
 
