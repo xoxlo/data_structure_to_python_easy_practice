@@ -1,5 +1,5 @@
 from training_9_01_2 import * # BSTNode 생성, 이진탐색트리 탐색 모듈 불러오기
-from training_9_15 import * # AVL트리 삽입 모듈 불러오기
+from training_9_15 import * # AVL트리 삽입 모듈 불러오기s
 from CircularQueue_levelorder import *
 
 def calc_height(n): # 이진트리의 높이 계산 함수
