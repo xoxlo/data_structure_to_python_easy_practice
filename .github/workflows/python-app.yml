@@ -14,6 +14,8 @@ jobs:
 
     runs-on: ubuntu-latest
 
+# ... (기존 코드 유지)
+
     steps:
     - uses: actions/checkout@v2
     - name: Set up Python 3.9
@@ -26,10 +28,14 @@ jobs:
     - name: Run Update Python Script 
       run: |
         python utils/check_files.py
+    - name: Check for changes in README.md
+      id: check_readme_changes
+      run: |
+        git diff --exit-code || echo "README.md has changes"
     - name: Run Update README.md File
+      if: steps.check_readme_changes.outputs.return-code == '0'
       run: |
         git add .
-        git diff
         git config --local user.email "thdckdtjr8@gmail.com"
         git config --local user.name "xoxlo"
         git commit -m "Automatically Update README.md file"
