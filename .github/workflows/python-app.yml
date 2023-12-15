@@ -41,4 +41,3 @@ jobs:
       run: |
         git add .
         git diff --cached --quiet || git commit -m "Automatically Update README.md file" && git push
-
