@@ -18,4 +18,4 @@ edge = [[0,1,1,0,0,0,0,0],
         [0,0,0,0,1,0,1,0]]
 
 print("신장트리(DFS) : ", end='')
-ST_DFS(vtx,edge,0,[False]*len(vtx))
+ST_DFS(vtx,edge1,0,[False]*len(vtx))
