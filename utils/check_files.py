@@ -19,7 +19,7 @@ def get_file_list():
 def make_info(file_list):
     info = f"## Chapter_01\n\n"
     for file in file_list:
-        temp = f"- [{file}](https://github.com/xoxlo/data_structure_to_python_easy_practice/tree/main/Chapter_1/{file})\n"
+        temp = f"- [{file}](https://github.com/xoxlo/data_structure_to_python_easy_practice/tree/main/Chapter_01/{file})\n"
         info += temp
     return info
 
@@ -31,7 +31,7 @@ def get_file_list2():
 def make_info2(file_list):
     info = f"## Chapter_02\n\n"
     for file in file_list:
-        temp = f"- [{file}](https://github.com/xoxlo/data_structure_to_python_easy_practice/tree/main/Chapter_2/{file})\n"
+        temp = f"- [{file}](https://github.com/xoxlo/data_structure_to_python_easy_practice/tree/main/Chapter_02/{file})\n"
         info += temp
     return info
 
@@ -43,7 +43,7 @@ def get_file_list3():
 def make_info3(file_list):
     info = f"## Chapter_03\n\n"
     for file in file_list:
-        temp = f"- [{file}](https://github.com/xoxlo/data_structure_to_python_easy_practice/tree/main/Chapter_3/{file})\n"
+        temp = f"- [{file}](https://github.com/xoxlo/data_structure_to_python_easy_practice/tree/main/Chapter_03/{file})\n"
         info += temp
     return info
 
@@ -55,7 +55,7 @@ def get_file_list4():
 def make_info4(file_list):
     info = f"## Chapter_04\n\n"
     for file in file_list:
-        temp = f"- [{file}](https://github.com/xoxlo/data_structure_to_python_easy_practice/tree/main/Chapter_4/{file})\n"
+        temp = f"- [{file}](https://github.com/xoxlo/data_structure_to_python_easy_practice/tree/main/Chapter_04/{file})\n"
         info += temp
     return info
 
@@ -67,7 +67,7 @@ def get_file_list5():
 def make_info5(file_list):
     info = f"## Chapter_05\n\n"
     for file in file_list:
-        temp = f"- [{file}](https://github.com/xoxlo/data_structure_to_python_easy_practice/tree/main/Chapter_5/{file})\n"
+        temp = f"- [{file}](https://github.com/xoxlo/data_structure_to_python_easy_practice/tree/main/Chapter_05/{file})\n"
         info += temp
     return info
 
@@ -79,7 +79,7 @@ def get_file_list6():
 def make_info6(file_list):
     info = f"## Chapter_06\n\n"
     for file in file_list:
-        temp = f"- [{file}](https://github.com/xoxlo/data_structure_to_python_easy_practice/tree/main/Chapter_6/{file})\n"
+        temp = f"- [{file}](https://github.com/xoxlo/data_structure_to_python_easy_practice/tree/main/Chapter_06/{file})\n"
         info += temp
     return info
 
@@ -91,7 +91,7 @@ def get_file_list7():
 def make_info7(file_list):
     info = f"## Chapter_07\n\n"
     for file in file_list:
-        temp = f"- [{file}](https://github.com/xoxlo/data_structure_to_python_easy_practice/tree/main/Chapter_7/{file})\n"
+        temp = f"- [{file}](https://github.com/xoxlo/data_structure_to_python_easy_practice/tree/main/Chapter_07/{file})\n"
         info += temp
     return info
 
@@ -103,7 +103,7 @@ def get_file_list8():
 def make_info8(file_list):
     info = f"## Chapter_08\n\n"
     for file in file_list:
-        temp = f"- [{file}](https://github.com/xoxlo/data_structure_to_python_easy_practice/tree/main/Chapter_8/{file})\n"
+        temp = f"- [{file}](https://github.com/xoxlo/data_structure_to_python_easy_practice/tree/main/Chapter_08/{file})\n"
         info += temp
     return info
 
@@ -115,7 +115,7 @@ def get_file_list9():
 def make_info9(file_list):
     info = f"## Chapter_09\n\n"
     for file in file_list:
-        temp = f"- [{file}](https://github.com/xoxlo/data_structure_to_python_easy_practice/tree/main/Chapter_9/{file})\n"
+        temp = f"- [{file}](https://github.com/xoxlo/data_structure_to_python_easy_practice/tree/main/Chapter_09/{file})\n"
         info += temp
     return info
 
